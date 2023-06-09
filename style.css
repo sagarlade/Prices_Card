@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', serif;
+}
+.container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    transform: translateY(50%);
+    margin: 0 auto;
+}
+.card{
+    height: 53vh;
+    width: 23%;
+    border: 1px solid rgb(199, 198, 198);
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px;
+}
+.card .heading{
+    background-color: #2a9176;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.content ul{
+    margin-top: 2rem;
+}
+.content ul li{
+    list-style: none;
+    transform: translateX(30%);
+    margin-top: 8px;
+}
+.content ul li .gre{
+    color: #2a9176;
+}
+.content ul li .red{
+    color: #cd2729;
+}
+.card .price{
+    text-align: center;
+    margin-top: 1.6rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.card .btn{
+    padding: 0.7rem;
+    width: 80%;
+    text-align: center;
+    margin-top: 1.4rem;
+    transform: translateX(12%);
+    background-color: #2a9176;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+}
+
+/* Card-2 */
+.card-2{
+    margin-top: -3rem;
+}
+.card-2:hover{
+    transform:translateY(-40px);
+    transition: all ease-out 0.5s;
+}
+.card .heading-1{
+    background-color: #cd2729;
+}
