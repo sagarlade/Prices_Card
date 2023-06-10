@@ -12,6 +12,7 @@ body{
     height: 100%;
     display: block;
     margin-top: 10em;
+    margin-left: 10em;
 }
 .card{
     margin-left: 1.5rem;
