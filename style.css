@@ -5,19 +5,20 @@
 body{
     box-sizing: border-box;
     font-family: 'Roboto Serif', serif;
+    overflow: hidden;
 }
 .container{
-    width: 90%;
+    width: 100%;
     height: 100%;
-    display: flex;
-    transform: translateY(50%);
-    margin: 0 auto;
+    display: block;
+    margin-top: 10em;
 }
 .card{
+    margin-left: 1.5rem;
     height: 53vh;
     width: 23%;
+    display: inline-block;
     border: 1px solid rgb(199, 198, 198);
-    margin: 0 auto;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px;
 }
